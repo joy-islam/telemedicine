@@ -1,0 +1,48 @@
+.navbar{
+
+text-decoration: underline;
+display: inline-block;
+list-style: none;
+margin: 0 20px;
+justify-content: space-between;
+color: #fff;
+
+}
+.navbar ul li{
+  display: inline-block;
+  margin: 0 70px;
+text-decoration: underline;
+text-decoration-color: #fff;
+text-transform: uppercase;
+cursor:pointer;
+
+}
+
+body{
+  background: #ffffff;
+  border: 3px solid black;
+}
+
+.pro{
+
+text-decoration-color: #fff;
+text-transform:capitalize;
+text-rendering: geometricPrecision;
+}
+.navbar1{
+  text-decoration: underline;
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+  justify-content: space-between;
+  color: #fff;
+}
+.navbar ul li{
+  display: inline-block;
+  margin: 0 70px;
+text-decoration: underline;
+text-decoration-color: #fff;
+text-transform: uppercase;
+cursor:pointer;
+
+}

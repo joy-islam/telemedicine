@@ -1,0 +1,86 @@
+h1{
+  text-align: center;
+  color: #EE671A
+}
+h2{
+  text-align: center;
+  color: #13C5E9
+}
+form{
+  text-align: center;
+}
+.nav-link{
+color:#EE671A ;
+text-decoration: none;
+font-weight: bold;
+text-align: center;
+padding: 10px;
+margin: 10px;
+text-transform: uppercase;
+display: block;
+}
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #6D6D6D;
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+
+.container form .user{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+.user .input-box input{
+height: 45px;
+width: 100%;
+outline: none;
+border-radius: 5px;
+border: 1px solid #ccc;
+padding-left: 15px;
+font-size: 16px;
+}
+.user .input-box .details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user .input-box input:focus,
+.user .input-box input:valid{
+  border-color: #9b59b6;
+}
+form .button{
+  height: 45px;
+  margin: 45px 0;
+}
+form .button input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+}
+.user .input-box select{
+  padding: 12px 55px;
+  color: #333333;
+  background-color: #eeeeee;
+  border-color: #dddddd;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.user .input-box select:focus,
+.user .input-box select:hover{
+  outline: none;
+  border:1px solid #ffffff;
+}
